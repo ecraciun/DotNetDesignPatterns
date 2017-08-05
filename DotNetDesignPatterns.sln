@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".solution", ".solution", "{CDC894A9-0418-4763-971F-31EE3A350BC1}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".doc", ".doc", "{604ADEE3-8F90-4932-A34E-2EFD55A81229}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AbstractFactory", "AbstractFactory", "{8771114D-1188-4D37-BD3A-B2CA1E140484}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Observer", "Observer", "{8D63687F-28BC-4BC9-8AFC-9742CD6361C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Command", "Command", "{89CC9528-41FD-44D0-9531-B0703D2EC8AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Facade", "Facade", "{27C3661E-DEA8-4E08-B443-16CF343DDBAD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singleton", "Singleton", "{1DF3C93D-B288-4F1E-BC45-58C1701A35B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{F17712F6-95A9-400C-BA71-D74EA8D67AF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F17712F6-95A9-400C-BA71-D74EA8D67AF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F17712F6-95A9-400C-BA71-D74EA8D67AF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F17712F6-95A9-400C-BA71-D74EA8D67AF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F17712F6-95A9-400C-BA71-D74EA8D67AF5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F17712F6-95A9-400C-BA71-D74EA8D67AF5} = {8771114D-1188-4D37-BD3A-B2CA1E140484}
+	EndGlobalSection
+EndGlobal
